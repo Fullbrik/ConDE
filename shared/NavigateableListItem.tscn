@@ -82,4 +82,5 @@ __meta__ = {
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
+[connection signal="focus_entered" from="AspectRatioContainer/Button" to="." method="_on_Button_focus_entered"]
 [connection signal="pressed" from="AspectRatioContainer/Button" to="." method="_on_Button_pressed"]

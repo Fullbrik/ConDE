@@ -18,10 +18,16 @@ _global_script_classes=[ {
 "class": "PaddingContainer",
 "language": "GDScript",
 "path": "res://shared/scripts/padding_container.gd"
+}, {
+"base": "ScrollContainer",
+"class": "SmoothScrollContainer",
+"language": "GDScript",
+"path": "res://shared/scripts/smooth_scroll_container.gd"
 } ]
 _global_script_class_icons={
 "MinSizeXIsHigh": "",
-"PaddingContainer": ""
+"PaddingContainer": "",
+"SmoothScrollContainer": ""
 }
 
 [application]
