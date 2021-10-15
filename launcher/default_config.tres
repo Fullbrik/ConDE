@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://launcher/launcher_config.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+show_seconds = false
+use_24hr_time = false

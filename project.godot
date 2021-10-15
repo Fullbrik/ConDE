@@ -9,6 +9,21 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "Label",
+"class": "CurrentTimeLabel",
+"language": "GDScript",
+"path": "res://launcher/current_time_label.gd"
+}, {
+"base": "Resource",
+"class": "LauncherConfig",
+"language": "GDScript",
+"path": "res://launcher/launcher_config.gd"
+}, {
+"base": "Node",
+"class": "LauncherConfigManager",
+"language": "GDScript",
+"path": "res://launcher/launcher_config_manager.gd"
+}, {
 "base": "Control",
 "class": "MinSizeXIsHigh",
 "language": "GDScript",
@@ -25,6 +40,9 @@ _global_script_classes=[ {
 "path": "res://shared/scripts/smooth_scroll_container.gd"
 } ]
 _global_script_class_icons={
+"CurrentTimeLabel": "",
+"LauncherConfig": "",
+"LauncherConfigManager": "",
 "MinSizeXIsHigh": "",
 "PaddingContainer": "",
 "SmoothScrollContainer": ""
@@ -33,7 +51,7 @@ _global_script_class_icons={
 [application]
 
 config/name="ConDE"
-run/main_scene="res://sample/SampleUI.tscn"
+run/main_scene="res://launcher/Launcher.tscn"
 config/icon="res://icon.png"
 
 [physics]
